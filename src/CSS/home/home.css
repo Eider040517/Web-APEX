@@ -1,0 +1,267 @@
+.container-home-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+.container-home-section .background-section-home {
+  position: relative;
+  width: 100%;
+  min-height: 90vh;
+  z-index: -1;
+  background-color: #171717;
+}
+.container-home-section .background-section-home img {
+  position: absolute;
+  width: inherit;
+  height: 100%;
+  top: -30px;
+  z-index: -1;
+}
+
+.container-more-info {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 0 180px;
+  background-image: url(/IMG/photos_2020_5_29_fst_grain-plaster-wall.jpg);
+}
+.container-more-info::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(233, 229, 217, 0.55);
+}
+.container-more-info .content-more-info {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.container-more-info .content-more-info .content-grid-more-info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.container-more-info .content-more-info .content-grid-more-info img {
+  width: 100%;
+  height: auto;
+}
+.container-more-info .content-more-info .content-text--more-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+.container-more-info .content-more-info .content-text--more-info h1 {
+  font-family: "Staatliches", cursive;
+  font-size: 48px;
+  margin-top: 125px;
+  margin-bottom: 50px;
+}
+.container-more-info .content-more-info .content-text--more-info p {
+  width: 100%;
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 36px;
+  line-height: 100%;
+  text-align: center;
+}
+.container-more-info .content-more-info .content-text--more-info .content-btn {
+  width: 290px;
+  height: 57px;
+  align-self: start;
+  text-align: center;
+  line-height: 57px;
+  border-radius: 5px;
+  margin-top: 50px;
+  background: #CB4F09;
+}
+.container-more-info .content-more-info .content-text--more-info .content-btn label {
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.container-info-battle-royal {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/IMG/backgroundAbout.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 208px;
+}
+.container-info-battle-royal::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+.container-info-battle-royal .content-info-battle-royal {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  z-index: 2;
+}
+.container-info-battle-royal .content-info-battle-royal .title-info-battle-royal {
+  font-family: "Staatliches", cursive;
+  font-size: 48px;
+  padding: 50px 0 30px 0;
+  color: white;
+}
+.container-info-battle-royal .content-info-battle-royal p {
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 28px;
+  color: white;
+}
+.container-info-battle-royal .content-card-info-battle-royale {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(3, 33.3%);
+  z-index: 2;
+}
+.container-info-battle-royal .content-card-info-battle-royale .card-info-battle-royale {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
+.container-info-battle-royal .content-card-info-battle-royale .card-info-battle-royale .img-card img {
+  width: 100%;
+}
+.container-info-battle-royal .content-card-info-battle-royale .card-info-battle-royale .text-card {
+  padding: 25px;
+}
+.container-info-battle-royal .content-card-info-battle-royale .card-info-battle-royale .text-card .title-card-info-battle-royale {
+  text-align: center;
+  font-size: 28px;
+  font-family: "Staatliches", cursive;
+  color: white;
+}
+.container-info-battle-royal .content-card-info-battle-royale .card-info-battle-royale .text-card .card-paragraph {
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 20px;
+  color: white;
+}
+
+.container-subscribe-notice {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 0 200px;
+  background-image: url(/IMG/photos_2020_5_29_fst_grain-plaster-wall.jpg);
+}
+.container-subscribe-notice::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(233, 229, 217, 0.55);
+}
+.container-subscribe-notice .content-grid-subscribe {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+}
+.container-subscribe-notice .content-grid-subscribe .info-text-subscribe {
+  margin-right: 15px;
+  padding-top: 120px;
+}
+.container-subscribe-notice .content-grid-subscribe .info-text-subscribe .title-subscribe {
+  font-size: 48px;
+  font-family: "Staatliches", cursive;
+}
+.container-subscribe-notice .content-grid-subscribe .info-text-subscribe .text-info-subscribe {
+  font-size: 20px;
+  font-family: "Baloo Thambi 2", cursive;
+  padding-top: 25px;
+}
+.container-subscribe-notice .content-grid-subscribe .subscribe-notice-form {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin-left: 15px;
+  padding-top: 120px;
+}
+.container-subscribe-notice .content-grid-subscribe .subscribe-notice-form .content-form-subscribe {
+  width: 100%;
+  height: auto;
+}
+.container-subscribe-notice .content-grid-subscribe .subscribe-notice-form .content-form-subscribe .content-input {
+  position: relative;
+  margin: 15px 0;
+}
+.container-subscribe-notice .content-grid-subscribe .subscribe-notice-form .content-form-subscribe .content-input .input-form-subscribe {
+  width: 100%;
+  height: 57px;
+  font-family: "Staatliches", cursive;
+  font-size: 20px;
+  padding-left: 30px;
+  border: 3px solid black;
+  background: transparent;
+}
+.container-subscribe-notice .content-grid-subscribe .subscribe-notice-form .content-form-subscribe .content-input .text-input {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  font-family: "Staatliches", cursive;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.502);
+}
+.container-subscribe-notice .content-grid-subscribe .subscribe-notice-form .content-form-subscribe .input-form-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 45% 45%;
+  justify-content: space-between;
+}
+.container-subscribe-notice .content-grid-subscribe .subscribe-notice-form .content-form-subscribe .content-check-box-form-subscribe {
+  display: flex;
+  margin-top: 60px;
+}
+.container-subscribe-notice .content-grid-subscribe .subscribe-notice-form .content-form-subscribe .content-check-box-form-subscribe input[type=radio] {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+.container-subscribe-notice .content-grid-subscribe .subscribe-notice-form .content-form-subscribe .content-check-box-form-subscribe .check-text-form {
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 20px;
+}
+.container-subscribe-notice .content-grid-subscribe .subscribe-notice-form .content-form-subscribe .content-btn {
+  width: 290px;
+  height: 57px;
+  align-self: start;
+  text-align: center;
+  line-height: 57px;
+  border-radius: 5px;
+  margin-top: 50px;
+  background: #CB4F09;
+}
+.container-subscribe-notice .content-grid-subscribe .subscribe-notice-form .content-form-subscribe .content-btn label {
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+/*# sourceMappingURL=home.css.map */
