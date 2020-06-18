@@ -1,0 +1,96 @@
+.container-subscribe-notice
+  position: relative
+  width: 100%
+  height: 100vh
+  padding: 0 200px
+  background-image: url(/IMG/photos_2020_5_29_fst_grain-plaster-wall.jpg)
+  &::after 
+    content: ""
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    background-color: rgba(233, 229, 217, 0.55)
+  .content-grid-subscribe
+    position: relative
+    z-index: 1
+    display: grid
+    width: 100%
+    height: 100%
+    grid-template-columns: 50% 50%
+    grid-template-rows: 1fr
+    .info-text-subscribe
+      margin-right: 15px
+      padding-top: 120px 
+      .title-subscribe
+        font:
+          size: 48px
+          family: "Staatliches", cursive
+      .text-info-subscribe
+        font:
+          size: 20px
+          family: "Baloo Thambi 2", cursive
+        padding-top: 25px
+    .subscribe-notice-form
+      box-sizing: border-box
+      width: 100%
+      height: 100%
+      margin-left: 15px
+      padding-top: 120px 
+      .content-form-subscribe
+        width: 100%
+        height: auto
+        .content-input
+          position: relative
+          margin:15px 0
+          .input-form-subscribe
+            width: 100%
+            height: 57px
+            font: 
+              family: "Staatliches", cursive
+              size: 20px
+            padding-left: 30px 
+            border: 3px solid black
+            background: transparent
+          .text-input
+            position: absolute
+            top: 50%
+            left: 30px
+            transform: translateY(-50%)
+            font:
+              family: "Staatliches", cursive
+              size: 20px
+            color: rgba(0, 0, 0, 0.502)
+        .input-form-grid
+          display: grid
+          width: 100%
+          grid-template-columns: 45% 45%
+          justify-content: space-between
+        .content-check-box-form-subscribe
+          display: flex
+          margin-top: 60px
+          input[type="radio"] 
+            display: flex
+            width: 20px 
+            height: 20px
+            border: 1px solid black
+          .check-text-form
+            font:
+              family: "Baloo Thambi 2", cursive
+              size: 20px
+        .content-btn
+          width: 290px
+          height: 57px
+          align-self: start
+          text-align: center
+          line-height: 57px
+          border-radius: 5px
+          margin-top: 50px
+          background: #CB4F09
+          label
+            font:
+              family: "Baloo Thambi 2", cursive
+              size: 20px
+            text-transform: uppercase
+            color: white
